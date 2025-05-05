@@ -114,7 +114,7 @@
                 
                 <!-- Responsive Malaysia Admin System Links -->
                 <div class="pt-2 pb-3 space-y-1 pl-3">
-                    <div class="font-medium text-white">{{ __('Malaysia System') }}</div>
+                    <div class="font-medium text-white">{{ __('Database') }}</div>
                     <x-responsive-nav-link :href="route('admin.malaysia.states.index')" :active="request()->routeIs('admin.malaysia.states.*')" class="text-white hover:bg-custom-red-800 pl-2">
                         {{ __('States') }}
                     </x-responsive-nav-link>
